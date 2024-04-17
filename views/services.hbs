@@ -1,11 +1,14 @@
-<h1>Services</h1>
+<div class="container-fluid text-center m-5 p-5">
+    <img src="img/services.jpg" id="img-services">
+    <h1 class="my-3">Services</h1>
 
-<ul>
-    {{#each services}}
-    <li>
-        <a href="{{ this.url }}">
-            {{ this.name }}
-        </a>
-    </li>
-    {{/each}}
-</ul>
+    <ul class="btn-list">
+        {{#each services}}
+        <li class="my-3">
+            <a href="{{ this.url }}" class="btn btn-outline-light">
+                {{ this.name }}
+            </a>
+        </li>
+        {{/each}}
+    </ul>
+</div>

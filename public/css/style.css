@@ -1,3 +1,7 @@
+#img-services {
+    width: 50%;
+}
+
 img {
     width: 90%;
 }
@@ -10,4 +14,10 @@ body {
 footer {
     background-color: rgb(246, 244, 240);
     color: rgb(15, 15, 15);
+}
+
+.btn-list li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
 }
